@@ -17,8 +17,8 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "`umkfess!" in message.lower():
-                        message = message.replace("`umkfess!", "~UMK BASE")
+                    if "ayolomba!" in message.lower():
+                        message = message.replace("ayolomba!", "Ayolomba!")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
